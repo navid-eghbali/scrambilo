@@ -83,7 +83,7 @@ class DFSUnitTest {
     }
 
     private fun createGraph(): Graph {
-        val g = Graph(SIZE)
+        val g = Graph(SIZE, SIZE)
         g.addEdge(0, 1)
         g.addEdge(0, 5)
         g.addEdge(1, 0)
