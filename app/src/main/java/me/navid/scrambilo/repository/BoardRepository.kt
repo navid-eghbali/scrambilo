@@ -11,8 +11,8 @@ class BoardRepository @Inject constructor() {
     //Creates a board randomly based on a letter's weight
     fun createBoard(lang: Language, n: Int, range: IntRange?): Array<Alphabet> {
         return when (lang) {
-            Language.ENGLISH -> Array(n * n) { lang.alphabet[Random.nextInt(lang.alphabet.size)] }
-            Language.PERSIAN -> {
+            Language.English -> Array(n * n) { lang.alphabet[Random.nextInt(lang.alphabet.size)] }
+            Language.Persian -> {
                 val arr = ArrayList<Alphabet>()
                 lang.alphabet.forEach {
                     for (i in 1..it.weight) {

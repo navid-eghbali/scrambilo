@@ -1,8 +1,8 @@
 package me.navid.scrambilo.model
 
 enum class Language(val alphabet: Array<Alphabet>, val file: String) {
-    ENGLISH(Data.ENGLISH_ALPHABET.map { Alphabet(it, 1, 1) }.toTypedArray(), "corncob.txt"),
-    PERSIAN(Data.PERSIAN_ALPHABET.mapIndexed { i, c ->
+    English(Data.ENGLISH_ALPHABET.map { Alphabet(it, 1, 1) }.toTypedArray(), "corncob.txt"),
+    Persian(Data.PERSIAN_ALPHABET.mapIndexed { i, c ->
         Alphabet(
             c,
             Data.PERSIAN_WEIGHTS[i],
@@ -20,6 +20,7 @@ enum class Language(val alphabet: Array<Alphabet>, val file: String) {
             'ذ', 'ر', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع',
             'غ', 'ف', 'ق', 'ک', 'گ', 'ل', 'م', 'ن', 'و', 'ه', 'ی'
         )
+
         //For calculating the weights I've extract the amplitude of each letter in my dictionary and multiply it by 10000
         val PERSIAN_WEIGHTS = arrayOf(
             1316, 59, 379, 128, 563, 33, 162, 62, 130, 166, 464,
