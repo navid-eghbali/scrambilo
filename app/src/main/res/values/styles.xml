@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorAccent">@color/purple</item>
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+        <item name="android:textViewStyle">@style/Widget.Scrambilo.TextView</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@color/statusBar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">true</item>
+        <item name="android:navigationBarColor">@color/purple</item>
+        <item name="android:textColorTertiary">@color/textColorTertiary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.LightNav" parent="AppTheme.NoActionBar" />
+
+    <style name="Widget.AppBar" parent="@style/Widget.Design.AppBarLayout">
+        <item name="popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Scrambilo.ToolbarTitle</item>
+    </style>
+
+    <style name="TextAppearance.Scrambilo.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/iransansmobile_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ToolbarTheme" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">?colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="Widget.Scrambilo.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Scrambilo.Body</item>
+    </style>
+
+    <style name="TextAppearance.Scrambilo.Body" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#6c38fb</color>
+    <color name="purpleDark">#4b2aeb</color>
+    <color name="grayDark">#ff808080</color>
+    <color name="statusBar">#202124</color>
+    <color name="textColorTertiary">#dadce0</color>
+    <color name="highlightLight">#33ffffff</color>
+    <color name="launcherBackground">#000000</color>
+</resources>

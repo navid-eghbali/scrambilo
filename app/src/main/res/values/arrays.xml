@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts">
+        <item>@font/iransansmobile_regular</item>
+        <item>@font/iransansmobile_light</item>
+        <item>@font/iransansmobile_medium</item>
+    </array>
+</resources>

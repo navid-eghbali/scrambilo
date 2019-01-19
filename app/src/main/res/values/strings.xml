@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Scrambilo</string>
+    <string name="hint">راهنما</string>
+    <string name="score">امتیاز</string>
+    <string name="word">لغت</string>
+    <string name="new_game">بازی جدید</string>
+    <string name="time_trial">جدال با زمان</string>
+    <string name="scoreboard">جدول رده‌بندی</string>
+    <string name="settings">تنظیمات</string>
+    <string name="about">درباره</string>
+    <string name="available_words">لغات موجود</string>
+    <string name="duplicate_word">کلمه تکراری</string>
+    <string name="invalid_word">کلمه نامعتبر</string>
+    <string name="close">بستن</string>
+    <string name="hints">راهنما</string>
+    <string name="coming_soon">بزودی…</string>
+</resources>
