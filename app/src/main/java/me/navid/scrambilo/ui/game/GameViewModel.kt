@@ -20,7 +20,7 @@ class GameViewModel @Inject constructor(
     }
 
     private val map: Graph
-    private val language = Language.English
+    private val language = Language.Persian
     private val trie: LiveData<Result<Trie>>
     private val difficulty = Difficulty.Medium
     private val solveBoardResult: LiveData<Result<List<Term>>>
